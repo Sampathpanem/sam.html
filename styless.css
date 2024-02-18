@@ -1,0 +1,35 @@
+.full-body{
+    font-family: sans-serif;
+    text-decoration: solid;
+    width:1200px;
+
+}
+.heading-top{
+    background-color: antiquewhite;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 400px;
+
+    
+
+    
+}
+
+.photo-one{
+    display:flex;
+    gap: 20px;
+}
+.main-content{
+    display: flex;
+}
+
+
+.rames{
+    display: flex;
+}
+aside{
+    width: 300px;
+    align-content: start;
+}

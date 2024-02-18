@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building hero section</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+
+            font-family: sans-serif;
+            color: #444;
+
+        }
+
+        nav {
+            font-size: 20px;
+            font-weight: 700;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+
+        h1 {
+            font-size: 52px;
+            margin-bottom: 32px;
+        }
+
+        p {
+            font-size: 20px;
+            margin-bottom: 32px;
+        }
+
+        h2 {
+            font-size: 44px;
+            margin-bottom: 48px;
+        }
+
+        .btn:link,
+        .btn:visited {
+            font-size: 20px;
+            font-weight: 600px;
+            background-color: orangered;
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+            padding: 16px 32px;
+            border-radius: 9px;
+
+        }
+
+        section {
+            padding: 96px 0;
+            
+        }
+
+        .container {
+            margin: 0 auto;
+            width: 1200px;
+
+        }
+
+        header {
+            
+            height: 100vh;
+            position: relative;
+        }
+
+        .header-container {
+            width: 1200px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .inner{
+            width:50%;
+            
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div>LOGO</div>
+            <div>NAVIGATION</div>
+        </nav>
+        <div class="header-container">
+            <div class="inner">
+                <h1>A healthy meal deleverd to every door</h1>
+                <p>the smart 365 days food subscription that will make you healthy again</p>
+                <a href="#" class="btn"> start eating healthy</a>
+            </div>
+        </div>
+    </header>
+    <section class="container">
+        <h2>some random heading</h2>
+        <p class="container">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit, tenetur. Recusandae, minus
+            autem? Perspiciatis quae odit, mollitia ipsam blanditiis beatae iure! Sint quaerat minima quis dolores
+            adipisci, dignissimos ratione sed!</p>
+    </section>
+
+</body>
+
+</html>

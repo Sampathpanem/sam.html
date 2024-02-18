@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carasoul.html</title>
+    <style>
+        .carasoul {
+            color: white;
+            background-color: green;
+            width: 800px;
+            margin:100px auto;
+            display: flex;
+            position: relative;
+            
+            align-items: center;
+            display: flex;
+            padding: 32px;
+            padding-left: 86px;
+            padding-right: 48px;
+
+            align-items: center;
+            gap: 32px;
+            border-radius: 8px;
+        }
+
+        .carasoul-img {
+            height: 200px;
+            border-radius: 16px;
+            transform: scale(1.5);
+            box-shadow:0 12px 24px rgba(0 0 0 0.25);
+
+
+        }
+        .btn{
+            background-color: white;
+            border: none;
+            height: 40px;
+            width: 40px;
+            position: absolute;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+        .btn-left{
+            left: 0;
+            top:50%;
+            transform: translate(-50%, -50%);
+
+        }
+        .btn-right{
+            right: 0;
+            top:50%;
+            transform: translate(50% ,-50%);
+
+
+        }
+        .btn-icon{
+            height: 24px;
+            width: 24px;
+            stroke: green;
+            
+        }
+        .dots{
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translate(-50%, 32px);
+            display: flex;
+            gap: 12px;
+        }
+        .dot{
+            border-color: white;
+            border: 2px solid ;
+            border-color: green;
+            height: 12px;
+            width: 2px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        .dotfill{
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="carasoul">
+        <img class="carasoul-img" src="C:\Users\rajes\Desktop\challenges.jpg" alt="photo author" />
+        <blockquote class="textimonial">
+
+            <p class="text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe incidunt necessitatibus
+                harum
+                architecto nostrum, inventore deserunt fuga nisi repellendus quod, repudiandae accusantium sunt quo.</p>
+            <p class="autor"> roberts d markend</p>
+
+        </blockquote>
+        <button class="btn btn-left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                class="btn-icon">
+                <path fill-rule="evenodd"
+                    d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z"
+                    clip-rule="evenodd" />
+            </svg>
+            </button>
+            <button class="btn btn-right"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="btn-icon">
+                <path fill-rule="evenodd" d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z" clip-rule="evenodd" />
+              </svg>
+              
+            </button>
+            <div class="dots">
+
+                <button class="dot dotfill">&nbsp;</button>
+                <button class="dot">&nbsp;</button>
+                <button class="dot">&nbsp;</button>
+                <button class="dot">&nbsp;</button>
+                
+            </div>
+
+    </div>
+  
+
+</body>
+
+</html>
