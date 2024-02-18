@@ -1,0 +1,54 @@
+.full-body{
+    font-family: sans-serif;
+    text-decoration: solid;
+    width:1200px;
+
+}
+.heading-top{
+    background-color: antiquewhite;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 400px;
+
+    
+
+    
+}
+
+.photo-one{
+    display:flex;
+    gap: 20px;
+}
+.main-content{
+    display: flex;
+}
+
+
+.rames{
+    display: flex;
+}
+aside{
+    width: 300px;
+    align-content: start;
+}
+.feature-element{
+    stroke:green;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 16px;
+    
+}
+.feature-elements{
+    stroke:green;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 16px;
+}
+.lists{
+    box-shadow: 20px 20px 16px 10px green;
+}
+.img-first{
+    border-radius: 20px;
+}
